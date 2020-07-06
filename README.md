@@ -8,9 +8,10 @@ The analysis is conducted to produce a clear and concise picture of the data fro
 The line graph and the dataframe in all gives a succinct picture of the ridesharing data while also providing a multidimensional analysis of all the city types by including the averages fares, total rides, total fares and so on. Such an analysis could even help in Pyber's future endeavours.
 ### Results
 The summary dataframe shows the total rides, total drivers, total fares, average fares per ride and average fares per driver for each city type. Such a data frame can give a better idea about the nature of each city type and which city type performs well in certain categories. In fact, the dataframe, as seen below shows that Urban areas have more total rides, total fares, and total drivers and hence a lower average fare per ride and average fare per driver whereas this is the complete opposite in the case of Rural areas. This only goes to prove how the number of people in an area have an impact on the average fare per ride and average fare per driver. 
-![Fig 1. ]( /analysis/Fig7.PNG)
+![Fig 1. ]( /analysis/Fig9.png)
+
 The technical analysis also included a line graph comparing the fares and the dates for the different city types as seen below. The graph is mostly steadily fluctuating for all the three city types with Urban areas showing the most amount of total fare and Rural areas having the least, but there is a significant peak in all the values near the end of February.
-![Fig 2. ]( /analysis/Fig8.PNG)
+![Fig 2. ]( /analysis/Fig8.png)
 ### Summary
 The summary dataframe can be analysed in multiple ways. As mentioned before, the number of people living in the area does indirectly affect these values because of the demand but another way of looking at it is that rural areas have less number of drivers compared to urban areas due to which the price is higher in rural areas for these high in demand drivers whereas low in urban areas where drivers are abundant.
 Also, the peak in the line graph could be because of an event in the analysed area due to which the demand to travel increased.
