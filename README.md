@@ -20,11 +20,14 @@ Also, the peak in the line graph could be because of an event in the analysed ar
 ### Challenges and Difficulties Encountered
 
 * Programming
-The main challenge was getting stuck while coding and not kknowing how to using particular functions. 
+
+  The main challenge was getting stuck while coding and not kknowing how to using particular functions. 
 * Data analysis
-The data analysis part was pretty difficult this time because of using new functions that we were not previously aquainted with such as resample()
+
+  The data analysis part was pretty difficult this time because of using new functions that we were not previously aquainted with such as resample()
 * Graphing, etc
-Initially, I was not sure how to plot using a data frame and was stuck with it but realized this was relatively simple once I saw the syntax. 
+
+  Initially, I was not sure how to plot using a data frame and was stuck with it but realized this was relatively simple once I saw the syntax. 
 
 ### Technical Analyses Used
 
@@ -38,15 +41,19 @@ Including percentages of rides, fares and drivers for each city type to the data
 ### Additional Analysis 1
 
 * Description of Approach
-Instead of doing a weekly analysis a monthly analysis can be done for the average fare in different types and they can be represnted in bar graphs 
+
+  Instead of doing a weekly analysis a monthly analysis can be done for the average fare in different types and they can be represnted in bar graphs 
 * Technical Steps
-To do this the same process as the line graph can be followed but while an mean() is used for fare instead of sum() while doing a groupby and then while using resample() we can do it by monthly. At the end, it will be plotted as a bar graph so that the comparison is easier.
+
+  To do this the same process as the line graph can be followed but while an mean() is used for fare instead of sum() while doing a groupby and then while using resample() we can do it by monthly. At the end, it will be plotted as a bar graph so that the comparison is easier.
 ### Additional Analysis 2
 
 * Description of Approach
-Similar to the line graph in this assignment, a line graph of the number of rides over the time for different city types can be plotted.
+
+  Similar to the line graph in this assignment, a line graph of the number of rides over the time for different city types can be plotted.
 * Technical Steps
-To do this, the process is similar to the Total Fare by City Type line graph. The only difference is that the No.drivers column should be considered instead of the fares column when the data frame in made initially, and the rest of the process is the same — doing a groupby the city type and the date coulumn, forming a pivot table and using resample() to form bins and them plotting to a line graph.
+
+  To do this, the process is similar to the Total Fare by City Type line graph. The only difference is that the No.drivers column should be considered instead of the fares column when the data frame in made initially, and the rest of the process is the same — doing a groupby the city type and the date coulumn, forming a pivot table and using resample() to form bins and them plotting to a line graph.
 
 
 
